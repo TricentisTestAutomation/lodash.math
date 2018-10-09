@@ -329,7 +329,7 @@
     return lodash;
   }
 
-  if(window !== undefined) {
+  if(typeof window !== 'undefined') {
     mixin_loader(_);
   }
   else {
